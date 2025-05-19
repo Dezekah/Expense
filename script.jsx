@@ -101,3 +101,6 @@ function clearAll() {
     expenseTotal = 0;
     updateSummary();
 }
+
+document.getElementById('add-income-btn').addEventListener('click', addIncome);
+document.getElementById('add-expense-btn').addEventListener('click', addExpense);
